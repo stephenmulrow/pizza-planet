@@ -11,10 +11,9 @@ export default function App() {
     }
   });
   const [todo, setTodo] = useState("");
-  // boolean state to know if we are editing (this will let us display
-  // different inputs based on a condition (conditional rendering)
+
   const [isEditing, setIsEditing] = useState(false);
-  // object state to set so we know which todo item we are editing
+ 
   const [currentTodo, setCurrentTodo] = useState({});
 
   useEffect(() => {
@@ -25,9 +24,7 @@ export default function App() {
     setTodo(e.target.value);
   }
 
-  // function to get the value of the edit input and set the new state
   function handleEditInputChange(e) {
-    // set the new state value to what's currently in the edit input box
     setCurrentTodo({ ...currentTodo, text: e.target.value });
     console.log(currentTodo);
   }
