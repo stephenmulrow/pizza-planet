@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="homepage">
-      <h1>Welcome To Pizza Planet</h1>
+      <h1>Welcome To Pizza Planet!</h1>
       <h2>Please select your role</h2>
       <ul>
       <Link to="/owner">

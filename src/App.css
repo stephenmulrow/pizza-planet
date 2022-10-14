@@ -1,14 +1,21 @@
 * {
   background-color: rgb(191, 191, 243);
   color: black;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
  
 .buttons {
   background-color:rgb(255, 131, 131);
   border-radius: 15px;
   color: white;
+  font-size: 15px;
 }
+
+.pizzaName {
+  font-size: 25px;
+
+}
+
 
 .App {
   text-align: left;
