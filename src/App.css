@@ -1,5 +1,17 @@
+* {
+  background-color: rgb(191, 191, 243);
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+ 
+.buttons {
+  background-color:rgb(255, 131, 131);
+  border-radius: 15px;
+  color: white;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +47,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homepage {
+  margin: auto;
+  width: 40%;
+  top: 200px;
+  padding: 10px;
 }
