@@ -10,7 +10,7 @@ function App () {
     <Router>
       <Routes>
         <Route 
-          path = "/"
+          path = "/pizza-planet"
           exact
           element = {<Home />}/>
         <Route 
